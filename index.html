@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tính khoản vay ngân hàng</title>
+  </head>
+  <body>
+    <h1>Tính khoản vay ngân hàng</h1>
+    <form>
+      <label for="so-tien-vay">Số tiền vay:</label>
+      <input type="number" id="so-tien-vay" name="so-tien-vay" /><br /><br />
+
+      <label for="lai-suat-nam">Lãi suất năm (%):</label>
+      <input type="number" id="lai-suat-nam" name="lai-suat-nam" /><br /><br />
+
+      <label for="thoi-gian-tra">Thời gian trả (năm):</label>
+      <input
+        type="number"
+        id="thoi-gian-tra"
+        name="thoi-gian-tra"
+      /><br /><br />
+
+      <button type="button" id="tinh">Tính</button><br /><br />
+
+      <label for="so-tien-hang-thang">Số tiền phải trả hàng tháng:</label>
+      <input
+        type="text"
+        id="so-tien-hang-thang"
+        name="so-tien-hang-thang"
+        readonly
+      /><br /><br />
+
+      <label for="tong-so-tien-phai-tra">Tổng số tiền phải trả:</label>
+      <input
+        type="text"
+        id="tong-so-tien-phai-tra"
+        name="tong-so-tien-phai-tra"
+        readonly
+      /><br /><br />
+
+      <label for="tong-so-lai-phai-tra">Tổng số lãi phải trả:</label>
+      <input
+        type="text"
+        id="tong-so-lai-phai-tra"
+        name="tong-so-lai-phai-tra"
+        readonly
+      /><br /><br />
+    </form>
+
+    <script src="script.js"></script>
+  </body>
+</html>
